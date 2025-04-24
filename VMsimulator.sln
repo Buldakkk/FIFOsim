@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VMsimulator", "VMsimulator\VMsimulator.vbproj", "{5782F076-E92A-40BB-8D51-9D738EC6970A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5782F076-E92A-40BB-8D51-9D738EC6970A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5782F076-E92A-40BB-8D51-9D738EC6970A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5782F076-E92A-40BB-8D51-9D738EC6970A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5782F076-E92A-40BB-8D51-9D738EC6970A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64A5B490-5AB7-460D-B631-80DBD437D4E8}
+	EndGlobalSection
+EndGlobal
