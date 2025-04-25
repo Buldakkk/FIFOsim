@@ -22,16 +22,37 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        components = New ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        tmrSplash = New Timer(components)
+        prbSplash = New ProgressBar()
         SuspendLayout()
+        ' 
+        ' tmrSplash
+        ' 
+        ' 
+        ' prbSplash
+        ' 
+        prbSplash.Location = New Point(-1, 858)
+        prbSplash.Name = "prbSplash"
+        prbSplash.Size = New Size(1227, 34)
+        prbSplash.TabIndex = 0
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1345, 854)
+        BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
+        BackgroundImageLayout = ImageLayout.Stretch
+        ClientSize = New Size(1212, 877)
+        Controls.Add(prbSplash)
+        FormBorderStyle = FormBorderStyle.None
         Name = "Form1"
         Text = "Form1"
         ResumeLayout(False)
     End Sub
+
+    Friend WithEvents tmrSplash As Timer
+    Friend WithEvents prbSplash As ProgressBar
 
 End Class
